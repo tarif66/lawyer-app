@@ -1,28 +1,28 @@
 import { Routes } from '@angular/router';
-import { AccueilComponent } from './accueil/accueil.component';
-import { ClientsComponent } from './clients/clients.component';
-import { AffairesComponent } from './affaires/affaires.component';
-import { CabinetComponent } from './cabinet/cabinet.component';
+import { AccueilPageComponent } from './accueil-page/accueil-page.component';
+import { ClientsPageComponent } from './clients-page/clients-page.component';
+import { AffairesPageComponent } from './affaires-page/affaires-page.component';
+import { CabinetPageComponent } from './cabinet-page/cabinet-page.component';
 
 const routeConfig: Routes = [
     {
         path: '',
-        component: AccueilComponent,
+        component: AccueilPageComponent,
         title: 'Accueil'
     },
     {
         path: 'clients',
-        component: ClientsComponent,
+        component: ClientsPageComponent,
         title: 'Clients'
     },
     {
         path: 'affaires',
-        component: AffairesComponent,
+        component: AffairesPageComponent,
         title: 'Affaires'
     },
     {
         path: 'cabinet',
-        component: CabinetComponent,
+        component: CabinetPageComponent,
         title: 'Cabinet'
     }
 ];
